@@ -1,0 +1,22 @@
+What is your favorite package manager for python and why?
+I don't have any preferences, I usually use pip, but it is the only one I know. However, I can learn to use another one
+
+Do you like the architecture presented in this project? Would you have implemented it differently?
+Since this is a small api, I don't change anything. But if it have to scale for a lot of request, for example, maybe I would introduce a cache layer
+and liberate a little charge to the database.  
+
+Do you know and understand UML? What would the class diagram of the domain exposed in the mastermind game be like for you?
+Yes, know and understand UML diagrams. in the file "mastermind uml.jpg" I have made one about the project. I hope this is what you are referring to
+
+What python tools are you aware of to handle things like code styling and consistency, formatting, typing…?
+Honestly speaking, i don't know any tool with that purpose
+
+Could you tell the difference among a list, a set and a dictionary?
+- A list is a unordered and changeable array of items, you can add/delete/modify whatever you want. And it allow duplicates items 
+- A set is a ordered and immutable array of items, once you initialize it, you can't change anything in it. Moreover, it don't allow duplicates
+- And a dictionary is a key-value pair array. Commonly it is ordered array based on the key value, but it seems that until python 3.7 it is not ordered.
+  Also it don't allow duplicates items
+
+Is there anything you would like to comment about the project, this small exercise, etc?
+Just one thing, I have to reverse the relation between Game and Guess. It works exactly as before, but it has a little more processing.
+I don't know it is imposible do a N:1 relation in python, but I can't find any way better to do that than this. 
